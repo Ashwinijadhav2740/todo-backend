@@ -14,7 +14,7 @@ RUN apt update && apt install -y maven
 RUN mvn clean package -DskipTests
 
 # Step 6: Copy the built JAR file to a known location
-RUN cp target/*.jar app.jar
+
 
 # Step 7: Expose the port the app runs on
 EXPOSE 8080
