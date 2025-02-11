@@ -1,23 +1,23 @@
-# Use an official OpenJDK 19 runtime as a parent image
+# Step 1: Use an official OpenJDK 19 image
 FROM eclipse-temurin:19-jdk
 
-# Set the working directory inside the container
+# Step 2: Set the working directory inside the container
 WORKDIR /app
 
-# Copy the project files into the container
+# Step 3: Copy the project files into the container
 COPY . .
 
-# Install Maven inside the container
+# Step 4: Install Maven inside the container (if needed)
 RUN apt update && apt install -y maven
 
-# Build the application inside the container using `mvn`
+# Step 5: Build the Spring Boot application inside the container
 RUN mvn clean package -DskipTests
 
-# Copy the built JAR file into the container
-RUN mvn target/*.jar app.jar
+# Step 6: Copy the built JAR file to a known location
+RUN cp target/*.jar app.jar
 
-# Expose the port the app runs on
+# Step 7: Expose the port the app runs on
 EXPOSE 8080
 
-# Run the JAR file
+# Step 8: Run the Spring Boot application
 CMD ["java", "-jar", "app.jar"]
