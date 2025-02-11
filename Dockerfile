@@ -12,7 +12,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # Copy the built JAR file into the container
-RUN mv target/*.jar app.jar
+RUN mvn target/*.jar app.jar
 
 # Expose the port the app runs on
 EXPOSE 8080
