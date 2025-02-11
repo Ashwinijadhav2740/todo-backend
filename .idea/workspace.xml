@@ -7,7 +7,6 @@
     <list default="true" id="d2dc8293-c3fd-42a0-ae5f-c8d8b678ddb2" name="Changes" comment="dockeredit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todo/TodoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestRunner.executor": "Run",
     "Application.TodoApplication.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -51,7 +51,20 @@
       <recent name="C:\Users\nichiuser\Desktop\Ashwini_Personal\todobackend\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TodoApplication">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <module name="todobackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.todo.TodoApplication" />
       <module name="todobackend" />
@@ -68,6 +81,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TodoApplication" />
+        <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739264075299</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="dockeredit">
+      <option name="closed" value="true" />
+      <created>1739270306428</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739270306428</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
