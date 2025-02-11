@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2dc8293-c3fd-42a0-ae5f-c8d8b678ddb2" name="Changes" comment="third">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="d2dc8293-c3fd-42a0-ae5f-c8d8b678ddb2" name="Changes" comment="third1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,12 +94,37 @@
       <option name="project" value="LOCAL" />
       <updated>1739256190432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third1">
+      <option name="closed" value="true" />
+      <created>1739256992174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739256992174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="third1">
+      <option name="closed" value="true" />
+      <created>1739257031049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739257031049</updated>
+    </task>
+    <task id="LOCAL-00005" summary="third1">
+      <option name="closed" value="true" />
+      <created>1739257226927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739257226927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
     <MESSAGE value="third" />
-    <option name="LAST_COMMIT_MESSAGE" value="third" />
+    <MESSAGE value="third1" />
+    <option name="LAST_COMMIT_MESSAGE" value="third1" />
   </component>
 </project>
