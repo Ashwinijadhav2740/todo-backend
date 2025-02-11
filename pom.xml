@@ -63,7 +63,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>src/main/java/com/example/todo/TodoApplication.java</mainClass>
+              <mainClass>src/main/java/com.example.todo.TodoApplication</mainClass>
             </manifest>
           </archive>
         </configuration>
