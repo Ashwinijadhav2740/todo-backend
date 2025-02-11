@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="todobackend:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2dc8293-c3fd-42a0-ae5f-c8d8b678ddb2" name="Changes" comment="dockeredit">
+    <list default="true" id="d2dc8293-c3fd-42a0-ae5f-c8d8b678ddb2" name="Changes" comment="dockeredit1">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/todobackend_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +50,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nichiuser/Desktop/Ashwini_Personal/todobackend/src/test/java"
+    "last_opened_file_path": "C:/Users/nichiuser/Desktop/Ashwini_Personal/todobackend/src/test/java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -189,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739270306428</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="dockeredit">
+      <option name="closed" value="true" />
+      <created>1739270992121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739270992121</updated>
+    </task>
+    <task id="LOCAL-00013" summary="dockeredit1">
+      <option name="closed" value="true" />
+      <created>1739271103213</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739271103213</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +224,7 @@
     <MESSAGE value="third1" />
     <MESSAGE value="pom" />
     <MESSAGE value="dockeredit" />
-    <option name="LAST_COMMIT_MESSAGE" value="dockeredit" />
+    <MESSAGE value="dockeredit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockeredit1" />
   </component>
 </project>
